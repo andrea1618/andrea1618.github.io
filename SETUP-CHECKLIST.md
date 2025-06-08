@@ -23,7 +23,7 @@ Complete these steps to customize your academic website:
 - [ ] **cv/cv.pdf**: Your actual CV PDF file
 
 ### ✅ 5. Links to Update
-- [ ] Email addresses (replace `zheyu.yang@university.edu`)
+- [ ] Email addresses (replace `eric.yang@university.edu`)
 - [ ] Google Scholar profile URL
 - [ ] ORCID ID
 - [ ] LinkedIn profile  
@@ -47,11 +47,11 @@ Use "Find & Replace" in your editor for these common updates:
 
 | Replace This | With Your Info |
 |-------------|----------------|
-| `Zheyu Yang` | Your full name |
-| `zheyu.yang@university.edu` | Your email |
+| `Eric Yang` | Your full name |
+| `eric.yang@university.edu` | Your email |
 | `University Name` | Your institution |
 | `Ph.D. Candidate in Economics` | Your title/position |
-| `https://github.com/zheyu-yang` | Your GitHub URL |
+| `https://github.com/eric-yang` | Your GitHub URL |
 
 ## 🌐 GitHub Pages Setup
 

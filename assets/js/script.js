@@ -1,6 +1,6 @@
 /**
  * Personal Academic Website - JavaScript
- * Author: Zheyu Yang
+ * Author: Eric Yang
  * Description: Enhanced functionality for the academic personal website
  */
 

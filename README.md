@@ -1,4 +1,4 @@
-# Academic Personal Website - Zheyu Yang
+# Academic Personal Website - Eric Yang
 
 A clean, professional academic personal website built with HTML, CSS, and JavaScript. Designed to be hosted on GitHub Pages with no backend dependencies.
 
@@ -41,7 +41,7 @@ A clean, professional academic personal website built with HTML, CSS, and JavaSc
 1. **Sign in to GitHub** (create account if needed): https://github.com
 2. **Create a new repository**:
    - Click the "+" icon in the top right → "New repository"
-   - **Repository name**: `zheyu-yang.github.io` (replace "zheyu-yang" with your GitHub username)
+   - **Repository name**: `eric-yang.github.io` (replace "eric-yang" with your GitHub username)
    - ✅ **Public** (required for free GitHub Pages)
    - ✅ **Add a README file**
    - Click "Create repository"
