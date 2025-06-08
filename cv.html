@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Zheyu Yang</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Zheyu Yang</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="research.html" class="nav-link">Research</a>
+                <a href="teaching.html" class="nav-link">Teaching</a>
+                <a href="cv.html" class="nav-link active">CV</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">Curriculum Vitae</h1>
+                <div class="cv-actions">
+                    <a href="cv/cv.pdf" class="btn btn-primary" target="_blank" download>
+                        <span class="icon">📄</span> Download PDF
+                    </a>
+                    <a href="cv/cv.pdf" class="btn btn-secondary" target="_blank">
+                        <span class="icon">🔗</span> Open in New Tab
+                    </a>
+                </div>
+            </div>
+
+            <!-- CV Embed Section -->
+            <section class="cv-section">
+                <div class="cv-container">
+                    <div class="cv-embed">
+                        <iframe 
+                            src="cv/cv.pdf" 
+                            width="100%" 
+                            height="800" 
+                            type="application/pdf"
+                            title="Zheyu Yang - Curriculum Vitae">
+                            <p>
+                                Your browser does not support embedded PDFs. 
+                                <a href="cv/cv.pdf" target="_blank">Click here to download the CV</a>.
+                            </p>
+                        </iframe>
+                    </div>
+                    
+                    <!-- Fallback CV Summary for browsers that don't support PDF embedding -->
+                    <div class="cv-fallback" id="cv-fallback" style="display: none;">
+                        <div class="cv-header-info">
+                            <h2>Zheyu Yang</h2>
+                            <p><strong>Ph.D. Candidate in Economics</strong></p>
+                            <p>Department of Economics • University Name</p>
+                            <p>Email: zheyu.yang@university.edu • Phone: (555) 123-4567</p>
+                        </div>
+
+                        <div class="cv-section-item">
+                            <h3>Education</h3>
+                            <div class="cv-entry">
+                                <div class="cv-entry-header">
+                                    <strong>Ph.D. in Economics</strong>
+                                    <span class="cv-date">2021 - Present (Expected 2025)</span>
+                                </div>
+                                <div class="cv-entry-detail">University Name</div>
+                                <div class="cv-entry-detail">Dissertation: "Essays on Labor Economics and Development"</div>
+                                <div class="cv-entry-detail">Advisors: Prof. Jane Smith, Prof. Robert Johnson</div>
+                            </div>
+                            
+                            <div class="cv-entry">
+                                <div class="cv-entry-header">
+                                    <strong>M.A. in Economics</strong>
+                                    <span class="cv-date">2019 - 2021</span>
+                                </div>
+                                <div class="cv-entry-detail">University Name</div>
+                                <div class="cv-entry-detail">GPA: 3.9/4.0</div>
+                            </div>
+
+                            <div class="cv-entry">
+                                <div class="cv-entry-header">
+                                    <strong>B.A. in Economics, <em>magna cum laude</em></strong>
+                                    <span class="cv-date">2015 - 2019</span>
+                                </div>
+                                <div class="cv-entry-detail">Undergraduate University</div>
+                                <div class="cv-entry-detail">GPA: 3.8/4.0, Phi Beta Kappa</div>
+                            </div>
+                        </div>
+
+                        <div class="cv-section-item">
+                            <h3>Research Interests</h3>
+                            <p>Applied Microeconomics, Labor Economics, Development Economics, Policy Evaluation</p>
+                        </div>
+
+                        <div class="cv-section-item">
+                            <h3>Working Papers</h3>
+                            <div class="cv-entry">
+                                <div class="cv-entry-detail">
+                                    <strong>"Policy Effects on Human Capital Development: Evidence from Early Childhood Education Programs"</strong> 
+                                    (with Jane Smith and Robert Johnson), 2024
+                                </div>
+                            </div>
+                            <div class="cv-entry">
+                                <div class="cv-entry-detail">
+                                    <strong>"Labor Market Dynamics in Developing Economies: A Structural Approach"</strong> 
+                                    (with Maria Garcia), Under Review, 2024
+                                </div>
+                            </div>
+                            <div class="cv-entry">
+                                <div class="cv-entry-detail">
+                                    <strong>"The Impact of Minimum Wage Policies on Employment and Firm Dynamics"</strong>, Draft, 2024
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cv-section-item">
+                            <h3>Publications</h3>
+                            <div class="cv-entry">
+                                <div class="cv-entry-detail">
+                                    <strong>"Education Returns and Labor Market Segmentation: Evidence from Urban China"</strong> 
+                                    (with Li Wei and David Thompson), <em>Journal of Development Economics</em>, Vol. 162, 2023
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cv-section-item">
+                            <h3>Honors & Awards</h3>
+                            <div class="cv-entry">
+                                <div class="cv-entry-header">
+                                    <strong>Outstanding Teaching Assistant Award</strong>
+                                    <span class="cv-date">2024</span>
+                                </div>
+                                <div class="cv-entry-detail">Department of Economics, University Name</div>
+                            </div>
+                            <div class="cv-entry">
+                                <div class="cv-entry-header">
+                                    <strong>Graduate Research Fellowship</strong>
+                                    <span class="cv-date">2023-2024</span>
+                                </div>
+                                <div class="cv-entry-detail">University Name Graduate School</div>
+                            </div>
+                            <div class="cv-entry">
+                                <div class="cv-entry-header">
+                                    <strong>Best Paper Award</strong>
+                                    <span class="cv-date">2023</span>
+                                </div>
+                                <div class="cv-entry-detail">Midwest Economics Association Annual Meeting</div>
+                            </div>
+                        </div>
+
+                        <div class="cv-section-item">
+                            <h3>Conference Presentations</h3>
+                            <div class="cv-entry">
+                                <div class="cv-entry-detail">American Economic Association Annual Meeting (2025)</div>
+                            </div>
+                            <div class="cv-entry">
+                                <div class="cv-entry-detail">Labor Economics Conference (2024)</div>
+                            </div>
+                            <div class="cv-entry">
+                                <div class="cv-entry-detail">Midwest Economics Association Annual Meeting (2023)</div>
+                            </div>
+                        </div>
+
+                        <div class="cv-section-item">
+                            <h3>Professional Experience</h3>
+                            <div class="cv-entry">
+                                <div class="cv-entry-header">
+                                    <strong>Research Assistant</strong>
+                                    <span class="cv-date">2022-2024</span>
+                                </div>
+                                <div class="cv-entry-detail">Prof. Jane Smith, University Name</div>
+                            </div>
+                            <div class="cv-entry">
+                                <div class="cv-entry-header">
+                                    <strong>Economic Research Intern</strong>
+                                    <span class="cv-date">Summer 2023</span>
+                                </div>
+                                <div class="cv-entry-detail">Federal Reserve Bank of Chicago</div>
+                            </div>
+                        </div>
+
+                        <div class="cv-section-item">
+                            <h3>Skills</h3>
+                            <div class="cv-entry">
+                                <div class="cv-entry-detail"><strong>Statistical Software:</strong> R, Stata, Python, MATLAB</div>
+                            </div>
+                            <div class="cv-entry">
+                                <div class="cv-entry-detail"><strong>Languages:</strong> English (Native), Mandarin (Native), Spanish (Conversational)</div>
+                            </div>
+                        </div>
+
+                        <div class="cv-download-section">
+                            <p><em>Last updated: January 2025</em></p>
+                            <a href="cv/cv.pdf" class="btn btn-primary" target="_blank" download>
+                                <span class="icon">📄</span> Download Full CV (PDF)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Zheyu Yang, 2025</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        // Check if PDF is supported and show fallback if needed
+        document.addEventListener('DOMContentLoaded', function() {
+            const iframe = document.querySelector('.cv-embed iframe');
+            const fallback = document.getElementById('cv-fallback');
+            
+            iframe.addEventListener('load', function() {
+                // Check if PDF loaded successfully
+                try {
+                    if (iframe.contentDocument || iframe.contentWindow) {
+                        // PDF loaded successfully
+                        return;
+                    }
+                } catch (e) {
+                    // Error accessing iframe content, likely PDF didn't load
+                    showFallback();
+                }
+            });
+            
+            iframe.addEventListener('error', function() {
+                showFallback();
+            });
+            
+            function showFallback() {
+                document.querySelector('.cv-embed').style.display = 'none';
+                fallback.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html> 
