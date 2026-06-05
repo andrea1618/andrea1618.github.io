@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="885" viewBox="0 0 1480 885" role="img" aria-labelledby="title desc">
+  <title id="title">JPMorgan Chase FY2025 — Revenue In, Costs &amp; Profit Out</title>
+  <desc id="desc">Revenue USD 182,447M, costs USD 109,852M, Pretax profit USD 72,595M. Status clean.</desc>
+  <rect width="1480" height="885" fill="#fbf9f4" />
+  <rect x="0.5" y="0.5" width="1479" height="884" fill="none" stroke="#e9e3d6" />
+  <defs>
+    <linearGradient id="grad-total" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#243358" />
+      <stop offset="100%" stop-color="#0b1224" />
+    </linearGradient>
+    <linearGradient id="grad-profit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f8a5f" />
+      <stop offset="100%" stop-color="#046a47" />
+    </linearGradient>
+    <linearGradient id="grad-cost-total" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9d1b2f" />
+      <stop offset="100%" stop-color="#d23a3a" />
+    </linearGradient>
+    <filter id="shadow" x="-45%" y="-20%" width="190%" height="145%">
+      <feDropShadow dx="0" dy="1.2" stdDeviation="1.4" flood-color="#000000" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; letter-spacing: 0; }
+    .title { font-family: Georgia, 'Times New Roman', serif; font-size: 29px; font-weight: 700; fill: #15213d; }
+    .subtitle { font-size: 14px; fill: #68727c; }
+    .rule { stroke: #ded6c7; stroke-width: 1; }
+    .header-left { fill: #1d4ed8; font-size: 12px; font-weight: 800; letter-spacing: .06em; }
+    .header-right { fill: #9d1b2f; font-size: 12px; font-weight: 800; letter-spacing: .06em; }
+    .label { font-size: 13px; font-weight: 800; fill: #1f2933; }
+    .metric { font-size: 11.5px; font-weight: 500; fill: #68727c; }
+    .leader { fill: none; stroke: #8e958f; stroke-width: .9; opacity: .78; }
+    .leader-label { font-size: 11.2px; font-weight: 700; fill: #1f2933; }
+    .leader-metric { font-size: 10.8px; font-weight: 600; fill: #68727c; }
+    .note { font-size: 13px; font-weight: 700; fill: #68727c; }
+    .note-line { fill: none; stroke: #c7bdad; stroke-width: 1; stroke-dasharray: 4 5; }
+    .box-label { font-size: 12px; fill: #68727c; font-weight: 700; }
+    .box-value { font-size: 12px; fill: #1f2933; font-weight: 800; }
+    .source { font-size: 10.5px; fill: #68727c; }
+  </style>
+  <text x="70" y="54" class="title">JPMorgan Chase FY2025 — Revenue In, Costs &amp; Profit Out</text>
+  <text x="70" y="82" class="subtitle">Every dollar of the USD 182.45B: where it came from (left) and where it went (right). Width = USD; % = share of total revenue.</text>
+  <line x1="70" y1="122" x2="1410" y2="122" class="rule" />
+  <text x="70" y="150" class="header-left">◀ REVENUE · BY LINE OF BUSINESS</text>
+  <text x="1410" y="150" class="header-right" text-anchor="end">EXPENSES · BY TYPE ▶</text>
+  <g class="ribbons">
+    <path d="M303.0,178.0 C445.1,178.0 469.9,185.5 612.0,185.5
+             L612.0,660.2 C469.9,660.2 445.1,652.7 303.0,652.7 Z"
+          fill="#1d4ed8" opacity="0.4" />
+    <path d="M303.0,657.7 C445.1,657.7 469.9,660.2 612.0,660.2
+             L612.0,743.4 C469.9,743.4 445.1,740.9 303.0,740.9 Z"
+          fill="#2563eb" opacity="0.4" />
+    <path d="M303.0,745.9 C445.1,745.9 469.9,743.4 612.0,743.4
+             L612.0,791.2 C469.9,791.2 445.1,793.7 303.0,793.7 Z"
+          fill="#3b82f6" opacity="0.4" />
+    <path d="M303.0,798.7 C445.1,798.7 469.9,791.2 612.0,791.2
+             L612.0,805.5 C469.9,805.5 445.1,813.0 303.0,813.0 Z"
+          fill="#0f766e" opacity="0.4" />
+    <path d="M630.0,185.5 C764.3,185.5 787.7,185.5 922.0,185.5
+             L922.0,432.2 C787.7,432.2 764.3,432.2 630.0,432.2 Z"
+          fill="#0f8a5f" opacity="0.42" />
+    <path d="M630.0,432.2 C764.3,432.2 787.7,432.2 922.0,432.2
+             L922.0,805.5 C787.7,805.5 764.3,805.5 630.0,805.5 Z"
+          fill="#d23a3a" opacity="0.34" />
+    <path d="M937.0,432.2 C1058.9,432.2 1080.1,306.3 1202.0,306.3
+             L1202.0,631.4 C1080.1,631.4 1058.9,757.2 937.0,757.2 Z"
+          fill="#9d1b2f" opacity="0.42" />
+    <path d="M937.0,757.2 C1058.9,757.2 1080.1,636.4 1202.0,636.4
+             L1202.0,684.7 C1080.1,684.7 1058.9,805.5 937.0,805.5 Z"
+          fill="#d23a3a" opacity="0.42" /></g>
+  <g class="nodes">
+    <g>
+      <title>North America — USD 139,689M (76.6%)</title>
+      <rect x="288.0" y="178.0" width="15.0" height="474.7" rx="5.5" fill="#1d4ed8" filter="url(#shadow)" />
+      <path d="M288.0,415.3 L279.0,386.6" class="leader" />
+      <circle cx="285.0" cy="415.3" r="2.2" fill="#1d4ed8" />
+      <text x="272.0" y="390.6" class="leader-label" text-anchor="end"><tspan x="272.0" dy="0">North America</tspan><tspan x="272.0" dy="13" class="leader-metric">USD 139,689M (76.6%)</tspan></text>
+    </g>
+    <g>
+      <title>EMEA — USD 24,478M (13.4%)</title>
+      <rect x="288.0" y="657.7" width="15.0" height="83.2" rx="5.5" fill="#2563eb" filter="url(#shadow)" />
+      <path d="M288.0,699.3 L279.0,670.5" class="leader" />
+      <circle cx="285.0" cy="699.3" r="2.2" fill="#2563eb" />
+      <text x="272.0" y="674.5" class="leader-label" text-anchor="end"><tspan x="272.0" dy="0">EMEA</tspan><tspan x="272.0" dy="13" class="leader-metric">USD 24,478M (13.4%)</tspan></text>
+    </g>
+    <g>
+      <title>Asia Pacific — USD 14,065M (7.7%)</title>
+      <rect x="288.0" y="745.9" width="15.0" height="47.8" rx="5.5" fill="#3b82f6" filter="url(#shadow)" />
+      <path d="M288.0,769.8 L279.0,741.0" class="leader" />
+      <circle cx="285.0" cy="769.8" r="2.2" fill="#3b82f6" />
+      <text x="272.0" y="745.0" class="leader-label" text-anchor="end"><tspan x="272.0" dy="0">Asia Pacific</tspan><tspan x="272.0" dy="13" class="leader-metric">USD 14,065M (7.7%)</tspan></text>
+    </g>
+    <g>
+      <title>Latin America — USD 4,215M (2.3%)</title>
+      <rect x="288.0" y="798.7" width="15.0" height="14.3" rx="5.5" fill="#0f766e" filter="url(#shadow)" />
+      <path d="M288.0,805.8 L279.0,775.0" class="leader" />
+      <circle cx="285.0" cy="805.8" r="2.2" fill="#0f766e" />
+      <text x="272.0" y="779.0" class="leader-label" text-anchor="end"><tspan x="272.0" dy="0">Latin America</tspan><tspan x="272.0" dy="13" class="leader-metric">USD 4,215M (2.3%)</tspan></text>
+    </g>
+    <g>
+      <title>Total Revenue — USD 182,447M · 100.0%</title>
+      <rect x="612.0" y="185.5" width="18.0" height="620.0" rx="5.5" fill="url(#grad-total)" filter="url(#shadow)" />
+    </g>
+    <g>
+      <title>Pretax profit — USD 72,595M · 39.8%</title>
+      <rect x="922.0" y="185.5" width="15.0" height="246.7" rx="5.5" fill="url(#grad-profit)" filter="url(#shadow)" />
+    </g><text x="949.0" y="203.5" class="label" text-anchor="start"><tspan x="949.0" dy="0">Pretax profit</tspan><tspan x="949.0" dy="15" class="metric">USD 72,595M · 39.8% · kept as profit</tspan></text>
+    <g>
+      <title>Total costs — USD 109,852M · 60.2%</title>
+      <rect x="922.0" y="432.2" width="15.0" height="373.3" rx="5.5" fill="url(#grad-cost-total)" filter="url(#shadow)" />
+    </g>
+    <g>
+      <title>Total Noninterest Expense — USD 95,640M · 52.4%</title>
+      <rect x="1202.0" y="306.3" width="15.0" height="325.0" rx="5.5" fill="#9d1b2f" filter="url(#shadow)" />
+      <path d="M1217.0,468.9 L1226.0,468.9" class="leader" />
+      <circle cx="1220.0" cy="468.9" r="2.2" fill="#9d1b2f" />
+      <text x="1233.0" y="472.9" class="leader-label" text-anchor="start"><tspan x="1233.0" dy="0">Total Noninterest Expense</tspan><tspan x="1233.0" dy="13" class="leader-metric">USD 95,640M (52.4%)</tspan></text>
+    </g>
+    <g>
+      <title>Provision for Credit Losses — USD 14,212M · 7.8%</title>
+      <rect x="1202.0" y="636.4" width="15.0" height="48.3" rx="5.5" fill="#d23a3a" filter="url(#shadow)" />
+      <path d="M1217.0,660.5 L1226.0,660.5" class="leader" />
+      <circle cx="1220.0" cy="660.5" r="2.2" fill="#d23a3a" />
+      <text x="1233.0" y="664.5" class="leader-label" text-anchor="start"><tspan x="1233.0" dy="0">Provision for Credit</tspan><tspan x="1233.0" dy="13">Losses</tspan><tspan x="1233.0" dy="13" class="leader-metric">USD 14,212M (7.8%)</tspan></text>
+    </g></g>
+  <g class="overlays"><text x="642.0" y="200.5" class="label" text-anchor="start"><tspan x="642.0" dy="0">Total Revenue</tspan><tspan x="642.0" dy="15" class="metric">USD 182,447M · 100.0%</tspan></text>
+      <g>
+        <rect x="689.0" y="589.0" width="172" height="34" rx="7" fill="#fffdf8" stroke="#e5dccb" opacity="0.96" />
+        <text x="703.0" y="611.0" class="box-label">Total costs</text>
+        <text x="849.0" y="611.0" class="box-value" text-anchor="end">USD 109,852M</text>
+      </g></g>
+  <text x="70" y="861" class="source">Source: SEC FSNDS, 0001628280-26-008131; figures in USD millions</text>
+</svg>

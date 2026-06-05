@@ -191,6 +191,49 @@ footer { animation-delay: 0.4s; }
   html { scroll-behavior: auto; }
 }
 
+/* ---- Article figures (wide charts that break out of the text column) ---- */
+.figure {
+  width: min(94vw, 720px);
+  margin: 2.5rem auto;
+}
+.figure figure { margin: 0; }
+.figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+}
+.figure figcaption {
+  margin: 0.6rem auto 0;
+  max-width: 60ch;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+/* ---- Callout / caveat box ---- */
+.callout {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  background: rgba(184, 71, 45, 0.045);
+  border-radius: 6px;
+  padding: 1.1rem 1.25rem;
+  margin: 2.5rem 0;
+  font-size: 0.98rem;
+}
+.callout p:last-child { margin-bottom: 0; }
+.callout strong { color: var(--ink); }
+
+/* ---- Post meta line under a title ---- */
+.post-meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: -0.25rem;
+}
+
 /* ---- Print: clean documents for CV / paper pages ---- */
 @media print {
   body {

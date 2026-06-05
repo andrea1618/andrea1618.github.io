@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revenue In, Profit Out: The Physics of a Revenue Dollar — Zheyu Yang</title>
+  <meta name="description" content="A visual experiment using SEC filing data: following one dollar of revenue through six very different companies — software, retail, autos, a bank, an insurer — to see how each turns revenue into cost, risk, and profit.">
+  <link rel="canonical" href="https://andrea1618.github.io/writing/revenue-in-profit-out.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Revenue In, Profit Out: The Physics of a Revenue Dollar">
+  <meta property="og:description" content="Following one dollar of revenue through six companies, using SEC filing data, to make business models visible.">
+  <meta property="og:url" content="https://andrea1618.github.io/writing/revenue-in-profit-out.html">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <div class="wrap">
+    <a class="backlink" href="../index.html">← Zheyu Yang</a>
+
+    <header id="main">
+      <h1>Revenue In, Profit Out</h1>
+      <p class="tagline">The physics of a revenue dollar</p>
+      <p class="post-meta">Essay · June 2026</p>
+    </header>
+
+    <section>
+      <div class="prose">
+        <p>
+          Every company reports revenue in the same unit: dollars. But a revenue dollar is not
+          always the same kind of dollar.
+        </p>
+        <p>
+          A Microsoft dollar is largely a software and cloud dollar. An Apple dollar begins as
+          hardware but opens onto services. A Walmart dollar is an inventory dollar — thin but
+          fast. A Tesla dollar is still mostly a manufacturing dollar, even as the company's
+          narrative points toward AI, autonomy, and software. A JPMorgan dollar is a spread
+          dollar, already net of funding cost. A Progressive dollar is a premium dollar — money
+          collected before the final cost of claims is known.
+        </p>
+        <p>
+          This is a small visual experiment built from public filing data. Each chart follows
+          one dollar of reported revenue: where it appears on the left, where it is spent on the
+          right, and what remains as profit. The result is not a valuation model and not an
+          investment ranking. It is closer to an X-ray — a way to see the shape of a business
+          model through the income statement.
+        </p>
+        <p>
+          The deeper question is not only "how much profit survives?" It is: what kind of dollar
+          entered the machine in the first place?
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>How to read the flow</h2>
+      <div class="prose">
+        <p>
+          Width is dollars. On the left is reported revenue. On the right, the green block is
+          what survives as profit; the red blocks are the expenses required to produce,
+          distribute, service, finance, or insure that revenue.
+        </p>
+        <p>
+          But the chart is only the beginning. The same accounting word can hide very different
+          economic realities. "Cost of revenue" means one thing for cloud software, another for
+          cars, another for retail inventory. "Provision for credit losses" is not a factory
+          cost; it is a bank's estimate of future credit pain. "Losses and loss adjustment
+          expenses" are not operating overhead; they are the core product cost of an insurer.
+        </p>
+        <p>
+          The charts look comparable because accounting forces every business into rows. The
+          businesses are different because their dollars obey different physics.
+        </p>
+      </div>
+      <div class="figure">
+        <figure>
+          <a href="../assets/charts/aapl.svg" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/charts/aapl.svg" alt="Apple FY2025 income-flow chart: revenue by region on the left; on the right, cost of sales 53.1%, R&D, SG&A, and operating profit of about 32%.">
+          </a>
+          <figcaption>
+            Apple keeps about a third of each revenue dollar as operating profit (32.0%) —
+            unusually high for a company that still sells hundreds of billions of dollars of
+            physical products. <em>Click any chart to open it full-size.</em>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Revenue size is not economic quality</h2>
+      <div class="prose">
+        <p>
+          The most obvious lesson is that the top line tells you very little. Microsoft and
+          Walmart both report enormous revenue. They are not remotely the same machine.
+        </p>
+      </div>
+      <div class="figure">
+        <figure>
+          <a href="../assets/charts/msft.svg" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/charts/msft.svg" alt="Microsoft FY2025 income-flow chart: operating profit about 45.6% of revenue.">
+          </a>
+          <figcaption>Microsoft — about 45.6% of revenue survives as operating profit.</figcaption>
+        </figure>
+      </div>
+      <div class="prose">
+        <p>
+          Microsoft turns about <strong>45.6%</strong> of revenue into operating profit —
+          roughly $128.5B of operating profit on $281.7B of revenue. This is the classic
+          software pattern: once the platform, code, and distribution exist, the next dollar can
+          arrive with far less incremental cost than a physical-product dollar.
+        </p>
+      </div>
+      <div class="figure">
+        <figure>
+          <a href="../assets/charts/wmt.svg" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/charts/wmt.svg" alt="Walmart FY2026 income-flow chart: cost of sales about 75%, operating profit about 4.2%.">
+          </a>
+          <figcaption>Walmart — cost of sales alone is about 75%, leaving roughly 4.2%.</figcaption>
+        </figure>
+      </div>
+      <div class="prose">
+        <p>
+          Walmart, with about $713.2B of revenue and roughly $29.8B of operating profit, keeps
+          about <strong>4.2%</strong>. Cost of sales alone is about three-quarters of revenue.
+          Read naively, this looks "worse." Economically it is a different design: low margin is
+          part of the customer promise. The business is not about making each dollar thick — it
+          is about making thin dollars move through the system with extraordinary speed and
+          discipline.
+        </p>
+        <p>
+          Microsoft's power is margin. Walmart's power is velocity. And that distinction matters,
+          because a business model is not only about how much profit is kept from each dollar. It
+          is also about how much capital that dollar ties up, how fast it turns, and who funds the
+          journey — things the income statement alone doesn't show. A high-margin business
+          stretches each dollar vertically; a high-throughput business spins each dollar
+          horizontally.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>The control point</h2>
+      <div class="prose">
+        <p>
+          The real subject of these charts is not margin. It is control.
+        </p>
+        <p>
+          A company earns attractive economics when it controls something scarce: code,
+          distribution, habit, logistics density, procurement scale, regulated balance-sheet
+          capacity, underwriting data, brand, or a network of customers and developers. The
+          income statement shows where that control appears.
+        </p>
+        <p>
+          Microsoft controls software platforms and cloud infrastructure. Apple controls the
+          device relationship and the ecosystem around it. Walmart controls procurement,
+          logistics, shelf space, and price perception. JPMorgan controls a regulated balance
+          sheet and funding franchise. Progressive controls underwriting, pricing, and claims
+          discipline.
+        </p>
+        <p>
+          Profit is not a substance that naturally flows out of revenue. Profit is what remains
+          after everyone else with a claim on the dollar has been paid — suppliers, employees,
+          landlords, cloud vendors, chipmakers, depositors, policyholders, regulators, and
+          customers themselves. A business model is the shape of a company's bargaining power,
+          expressed through accounting.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Apple: hardware as a gateway</h2>
+      <div class="prose">
+        <p>
+          Apple is often described as a hardware company with a services business attached. The
+          chart above suggests a stronger version: the hardware creates the installed base, and
+          the installed base creates the right to earn higher-margin services revenue over time.
+        </p>
+        <p>
+          The device sale is visible immediately. The services layer — app commissions,
+          advertising, cloud, support, payments, subscriptions — is more subtle, and it does not
+          all behave like product revenue. Some of it is recurring; some is a platform toll; some
+          is attached to a user relationship rather than a unit shipped. That is why Apple can
+          sell physical products and still look unlike a normal hardware company: the device is a
+          customer relationship with an operating system wrapped around it. Manufacturing at the
+          front, ecosystem economics behind it.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Microsoft: software and infrastructure leverage</h2>
+      <div class="prose">
+        <p>
+          Microsoft is the cleanest example of operating leverage in the set: revenue passes
+          through cost of revenue, R&amp;D, sales, and general expenses, and nearly half still
+          survives as operating profit.
+        </p>
+        <p>
+          But even here the shape is changing. The old software miracle was that the second
+          customer was almost free. The cloud version is different, and the AI version is more
+          different still: the frontier of software is increasingly physical — chips, power,
+          cooling, land, fiber, and data centers. The chart can't show capital intensity, but it
+          reframes the question. For software, the issue is no longer only "does it scale?" It is
+          "what does scaling now require?"
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Tesla: the narrative hasn't reached the P&amp;L</h2>
+      <div class="prose">
+        <p>
+          Tesla is mentally filed next to big tech. Its income statement still looks much more
+          like manufacturing.
+        </p>
+      </div>
+      <div class="figure">
+        <figure>
+          <a href="../assets/charts/tsla.svg" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/charts/tsla.svg" alt="Tesla FY2025 income-flow chart: cost of revenue about 82%, operating profit about 4.6%.">
+          </a>
+          <figcaption>Tesla — about 82% of revenue is the cost of building the product; ~4.6% operating margin.</figcaption>
+        </figure>
+      </div>
+      <div class="prose">
+        <p>
+          About <strong>82%</strong> of revenue ($94.8B) is absorbed by cost of revenue ($77.7B),
+          leaving roughly a <strong>4.6%</strong> operating margin after R&amp;D and SG&amp;A. The
+          largest red block is not sales, marketing, or R&amp;D — it is the cost of building,
+          delivering, servicing, warranting, and supporting physical products. Apple and Tesla
+          both sell hardware, yet Apple keeps about a third of each dollar and Tesla under a
+          twentieth. The difference is pricing power, product mix, and an ecosystem — not who is
+          more "tech."
+        </p>
+        <p>
+          None of this disproves the AI-and-autonomy story. It simply shows what has not yet
+          become the dominant income-statement reality. Today's Tesla dollar is mostly a car,
+          energy, and services dollar; the bull case depends on whether more of it can become
+          software, autonomy, or fleet economics. The chart doesn't settle that debate — it
+          clarifies it. If Tesla is to be valued as a different kind of business, the difference
+          eventually has to show up here.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Banks: a chart that starts halfway through the machine</h2>
+      <div class="prose">
+        <p>
+          Banks have a different grammar. For an industrial company, revenue appears before
+          product cost. For a bank, a large part of revenue is already net of one of its most
+          important costs: funding. The interest a bank earns is reported net of the interest it
+          pays before it ever reaches a chart like this — so a bank's "revenue" dollar has
+          already passed through the price of money.
+        </p>
+      </div>
+      <div class="figure">
+        <figure>
+          <a href="../assets/charts/jpm.svg" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/charts/jpm.svg" alt="JPMorgan FY2025 income-flow chart: noninterest expense, provision for credit losses 7.8%, pretax profit 39.8%.">
+          </a>
+          <figcaption>JPMorgan — a bank's costs include provisions for credit losses; ~39.8% pretax.</figcaption>
+        </figure>
+      </div>
+      <div class="prose">
+        <p>
+          After that netting, the bank still pays noninterest expenses, absorbs provisions for
+          credit losses, and holds capital against risk. JPMorgan's total net revenue was about
+          $182.4B, noninterest expense about $95.6B, the provision for credit losses about $14.2B
+          (7.8% of revenue), and pretax profit about $72.6B — roughly <strong>39.8%</strong>. A
+          bank does not simply turn revenue into profit. It turns balance-sheet permission into
+          spread, then spends provisions when the future looks less certain.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Insurance: reverse manufacturing</h2>
+      <div class="prose">
+        <p>
+          Insurance is stranger still. A manufacturer usually builds the product, knows its cost,
+          and then sells it. An insurer sells the product first and learns the final cost later.
+        </p>
+      </div>
+      <div class="figure">
+        <figure>
+          <a href="../assets/charts/pgr.svg" target="_blank" rel="noopener noreferrer">
+            <img src="../assets/charts/pgr.svg" alt="Progressive FY2025 income-flow chart: losses and loss adjustment expenses 61.5%, pretax profit 16.2%.">
+          </a>
+          <figcaption>Progressive — most of every premium dollar goes to paying claims; ~16.2% pretax.</figcaption>
+        </figure>
+      </div>
+      <div class="prose">
+        <p>
+          Progressive's largest expense is losses and loss adjustment expenses — the claims it
+          pays and the cost of handling them — about $54.0B, or <strong>61.5%</strong> of revenue.
+          Profit (about 16.2% pretax) is the residual after risk is priced, claims are paid, and
+          policies are acquired. Price the risk now, discover part of the cost later, and hope the
+          pool behaves better than the price assumed.
+        </p>
+        <p>
+          The chart shows one more thing. Progressive's left side reads "revenue not disaggregated
+          in filing." Sometimes the picture reveals the <em>disclosure structure</em>, not just the
+          economics — what a company chooses to break out is itself information.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Why margins aren't directly comparable</h2>
+      <div class="prose">
+        <p>
+          It is tempting to sort these companies by margin and declare a winner. That would miss
+          the point. A 45.6% Microsoft operating margin, a 32.0% Apple operating margin, a 4.2%
+          Walmart operating margin, a 4.6% Tesla operating margin, a 39.8% JPMorgan pretax margin,
+          and a 16.2% Progressive pretax margin are not just different numbers. They are different
+          species of number.
+        </p>
+        <p>
+          The profit line isn't even the same line in every chart. For Microsoft, Apple, Walmart,
+          and Tesla, the chart uses operating profit. For JPMorgan and Progressive, pretax profit
+          is more useful, because the operating structure of a bank or an insurer does not map
+          neatly onto a standard industrial income statement. The categories do different jobs,
+          too: what one company puts in "cost of sales," another reports in operating expense, so
+          even gross margins aren't always comparable.
+        </p>
+        <p>
+          Accounting is not a neutral photograph of the business. It is a map drawn with rules,
+          estimates, categories, and management choices. Sometimes the chart reveals the business;
+          sometimes it reveals the accounting boundary around the business.
+        </p>
+      </div>
+
+      <div class="callout">
+        <p>
+          <strong>A note on comparability.</strong> These charts are descriptive, not valuation
+          models. Different industries use different accounting categories, and the profit measure
+          is not identical across companies. Read them as maps of business models, not as rankings
+          of investment attractiveness — and not as investment advice.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>The four questions behind every chart</h2>
+      <div class="prose">
+        <p>
+          The chart tells you how much of a dollar survived. A business model asks four deeper
+          questions.
+        </p>
+        <p>
+          <strong>What kind of dollar is it?</strong> A software dollar, a hardware dollar, an
+          inventory dollar, a spread dollar, and a premium dollar should not be read the same way.
+        </p>
+        <p>
+          <strong>How much capital does it require?</strong> A thin-margin retailer can throw off
+          enormous cash if inventory turns quickly and suppliers help finance the system. A
+          software company can look asset-light until AI and cloud infrastructure demand heavy
+          investment. A bank's revenue requires regulatory capital; an insurer's requires reserves
+          and an investment portfolio.
+        </p>
+        <p>
+          <strong>When does the cost become knowable?</strong> Walmart knows its cost of goods
+          quickly. Tesla knows most product cost upfront but carries warranty and service
+          obligations. JPMorgan provisions for future credit losses. Progressive prices policies
+          before all the claims are known.
+        </p>
+        <p>
+          <strong>Why does the spread persist?</strong> Margins only matter if they are
+          defensible — through brand, switching costs, procurement scale, logistics density,
+          underwriting data, regulation, capital access, network effects, or simply execution.
+        </p>
+        <p>
+          Margin tells you how much survived. Capital tells you what had to be tied up. Time tells
+          you when the cost becomes knowable. Control tells you why the spread exists at all.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>What I'm doing next</h2>
+      <div class="prose">
+        <p>
+          These six companies are only a starting point. The underlying project builds one of
+          these flows for every company in the S&amp;P 500 from structured filing data, with the
+          goal of being able to move across companies and industries interactively.
+        </p>
+        <p>
+          The risk in a project like this is false precision. SEC structured data is powerful, but
+          the SEC itself notes that its Financial Statement and Notes Data Sets are meant to help
+          analyze filing data and are not a substitute for the complete filings. So the charts
+          should be read as maps, not answers. They simplify; they compress; they depend on
+          accounting categories that vary by industry and company.
+        </p>
+        <p>
+          But maps are useful precisely because they compress. They show shape. And the shape
+          matters, because accounting data is not just a scorecard of performance. It is a fossil
+          record of business power: what a company can charge for, what it must pay away, what
+          risks it carries, what capital it needs, and which costs it has managed to shrink, defer,
+          or push somewhere else.
+        </p>
+        <p>
+          Top line is volume. Margin is survival. Business model is physics.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Built from the SEC's Financial Statement and Notes Data Sets (FSNDS), which extract figures
+        from companies' XBRL filings. The SEC notes these datasets are not a substitute for the
+        full filings, and investors should still read the complete documents. Every figure here is
+        drawn from the charts; figures are FY2025 (Walmart FY2026), in USD millions. Not investment
+        advice.
+      </p>
+      <p><a href="../index.html">← Back home</a></p>
+    </footer>
+  </div>
+</body>
+</html>
