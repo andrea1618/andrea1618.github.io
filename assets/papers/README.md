@@ -1,35 +1,16 @@
-# Research Papers Directory
+# assets/papers/
 
-This directory contains PDF files of your research papers, working papers, and publications.
+Put working-paper and publication PDFs here.
 
-## How to Add Papers
+**Naming:** lowercase, hyphenated — e.g. `risk-taking-monetary-policy.pdf`.
 
-1. **Upload PDF files** to this directory
-2. **Use descriptive names** like:
-   - `paper1.pdf` 
-   - `labor-market-dynamics-2024.pdf`
-   - `human-capital-education-policy.pdf`
+To link a PDF from a research page (the pages live in `research/`), uncomment the PDF
+link near the bottom of that file and point it at the file you added, for example:
 
-3. **Update links in research.html**:
-   ```html
-   <a href="assets/papers/your-paper.pdf" class="btn btn-sm btn-primary" target="_blank">
-       📄 PDF
-   </a>
-   ```
-
-## File Organization Tips
-
-- Use lowercase filenames with hyphens
-- Include year in filename for easy sorting
-- Keep filenames under 50 characters
-- No spaces in filenames
-
-## Example Structure
-
+```html
+<p class="desc">
+  <a class="inline-link" href="../assets/papers/risk-taking-monetary-policy.pdf">PDF →</a>
+</p>
 ```
-assets/papers/
-├── paper1-human-capital-2024.pdf
-├── paper2-labor-dynamics-2024.pdf
-├── published-education-returns-2023.pdf
-└── README.md
-``` 
+
+(Research pages are one folder deep, so the path starts with `../assets/papers/`.)

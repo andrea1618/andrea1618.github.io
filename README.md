@@ -1,44 +1,59 @@
-# Eric Yang — Academic Personal Website
+# Zheyu Yang — Personal Website
 
 A small, dependency-free static website hosted on **GitHub Pages** from the `main`
-branch root (`https://andrea1618.github.io/`). Plain HTML5, one shared stylesheet, and
-one shared vanilla-JavaScript file. No build step, no framework, no runtime
-dependencies (the only external resource is the Google Fonts "Inter" stylesheet).
+branch root (`https://andrea1618.github.io/`). Plain HTML5 + one shared stylesheet.
+No JavaScript, no build step, no framework (the only external resource is the Google
+Fonts stylesheet: **Fraunces** for headings, **Newsreader** for body text).
+
+The design is a warm, minimal, single-column editorial layout: the home page is a
+**portal** (intro + Writing list + Research list + contact footer), and each paper or
+post lives on its own page.
 
 ## Pages
 
-| File            | Purpose                                                        |
-| --------------- | -------------------------------------------------------------- |
-| `index.html`    | Home: profile, bio, research highlights                        |
-| `research.html` | Working papers with abstracts                                  |
-| `cv.html`       | CV page (PDF embed, currently a placeholder — see TODOs)       |
-| `contact.html`  | Email and profile/network links (currently TODO placeholders)  |
+| File                          | Purpose                                            |
+| ----------------------------- | -------------------------------------------------- |
+| `index.html`                  | Home/portal: intro, Writing list, Research list    |
+| `research/*.html`             | One page per working paper (full abstract)         |
+| `cv.html`                     | CV page (PDF placeholder — see TODOs)              |
+| `writing/example-post.html`   | Template for a writing post — copy it per new post |
 
 ## Structure
 
 ```
 /
-├── index.html, research.html, cv.html, contact.html
+├── index.html               # home portal
+├── research/                # one page per paper
+│   ├── risk-taking.html
+│   ├── boom-bust.html
+│   └── provincial.html
+├── writing/
+│   └── example-post.html    # post template (noindex; uses ../ paths)
+├── cv.html                  # CV (PDF placeholder)
 ├── assets/
-│   ├── css/style.css     # all styling (CSS custom properties in :root)
-│   ├── js/script.js      # progressive enhancement only; site works without JS
-│   ├── img/              # profile photo and favicon go here
-│   └── papers/           # working-paper PDFs go here
-├── cv/cv.pdf             # CV PDF
-├── sitemap.xml, robots.txt
+│   ├── css/style.css        # all styling; tweak the :root variables at the top
+│   ├── img/favicon.svg      # site icon
+│   └── papers/              # working-paper PDFs go here
+├── sitemap.xml, robots.txt, .gitignore
 └── README.md, SETUP-CHECKLIST.md
 ```
 
+(When you add a CV PDF, drop it at `cv/cv.pdf` and enable the embed in `cv.html`.)
+
 ## Editing
 
-- **Identity / bio:** `index.html` (profile section). Keep the title and bio consistent
-  across all pages.
-- **Papers:** add a `.paper-item` block in `research.html`. Drop the PDF into
-  `assets/papers/` and uncomment the `paper-links` block in that item.
-- **Colors / spacing / fonts:** edit the `:root` variables at the top of
-  `assets/css/style.css`.
-- **Navigation/footer** are duplicated in each HTML file (intentionally, to keep the site
-  buildless). When you change one, change all four.
+- **Look & feel:** change the `:root` variables (colors, accent, max width) at the top of
+  `assets/css/style.css`. `--accent` is the single pop of color.
+- **Identity / intro:** edit the `<header>` in `index.html`.
+- **A paper:** copy a file in `research/` to `research/your-paper.html`, edit the title and
+  abstract, then add a matching `<li>` to the Research section of `index.html`. Drop the
+  PDF into `assets/papers/` and uncomment the PDF link in the paper page.
+- **A writing post:**
+  1. Copy `writing/example-post.html` to `writing/your-title.html`, edit it, and remove
+     the `noindex` line once it's real.
+  2. Add an `<li>` to the Writing section in `index.html` pointing at the new file.
+  (Pages in `research/` and `writing/` reference CSS/links/images with `../`.)
+- **Keep `sitemap.xml` in sync** when you add or remove pages.
 
 ## Deploying
 
@@ -47,6 +62,4 @@ Pushing to `main` publishes automatically via GitHub Pages
 
 ## What still needs your real values
 
-See **`SETUP-CHECKLIST.md`** for the list of `TODO` placeholders to fill in before this
-site is fully accurate (email, profile links, CV PDF, profile photo, etc.). Search the
-repo for `TODO` to find them in context.
+See **`SETUP-CHECKLIST.md`**. Search the repo for `TODO` to find each spot in context.
