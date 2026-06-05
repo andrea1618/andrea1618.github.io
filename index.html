@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eric Yang - Economics Ph.D. Candidate</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Eric Yang &mdash; Modeling &amp; Analytics Researcher</title>
+    <meta name="description" content="Eric Yang is a Modeling &amp; Analytics Researcher at Moody's working on monetary policy, international finance, and macroeconomics, with a focus on China's financial markets.">
+    <link rel="canonical" href="https://andrea1618.github.io/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Eric Yang &mdash; Modeling &amp; Analytics Researcher">
+    <meta property="og:description" content="Monetary policy, international finance, and macroeconomics, with a focus on China's financial markets.">
+    <meta property="og:url" content="https://andrea1618.github.io/">
+    <!-- TODO: add a share image once available:
+    <meta property="og:image" content="https://andrea1618.github.io/assets/img/og-cover.png"> -->
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Eric Yang &mdash; Modeling &amp; Analytics Researcher">
+    <meta name="twitter:description" content="Monetary policy, international finance, and macroeconomics, with a focus on China's financial markets.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- TODO: add a real favicon and re-enable: <link rel="icon" href="assets/img/favicon.ico"> -->
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
@@ -16,54 +36,53 @@
                 <a href="index.html">Eric Yang</a>
             </div>
             <div class="nav-menu" id="nav-menu">
-                <a href="index.html" class="nav-link active">Home</a>
+                <a href="index.html" class="nav-link active" aria-current="page">Home</a>
                 <a href="research.html" class="nav-link">Research</a>
-                <a href="teaching.html" class="nav-link">Teaching</a>
                 <a href="cv.html" class="nav-link">CV</a>
                 <a href="contact.html" class="nav-link">Contact</a>
             </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
         </div>
     </nav>
 
     <!-- Main Content -->
-    <main class="main-content">
+    <main class="main-content" id="main-content">
         <div class="container">
             <!-- Profile Section -->
             <section class="profile-section">
                 <div class="profile-container">
                     <div class="profile-image">
-                        <img src="assets/img/profile-placeholder.jpg" alt="Eric Yang" id="profile-img">
+                        <!-- TODO: replace this placeholder with a real photo, e.g.
+                             <img src="assets/img/eric-yang.jpg" alt="Eric Yang" width="200" height="200"> -->
+                        <div class="profile-image-placeholder" aria-hidden="true">EY</div>
                     </div>
                     <div class="profile-info">
                         <h1 class="profile-name">Eric Yang</h1>
-                        <h2 class="profile-title">Ph.D. Candidate in Economics</h2>
+                        <h2 class="profile-title">Modeling &amp; Analytics Researcher at Moody's</h2>
                         <p class="profile-bio">
-                            I am a Modeling & Analytics Researcher at Moody’s, where I develop quantitative frameworks for credit portfolio modeling and risk assessment. I hold a Ph.D. in Economics from George Washington University, an M.A. in Economics from Boston University, and a B.A. in Philosophy from Renmin University of China.
-                          </p>
-                          
+                            I am a Modeling &amp; Analytics Researcher at Moody's, where I develop quantitative frameworks for credit portfolio modeling and risk assessment. I hold a Ph.D. in Economics from George Washington University, an M.A. in Economics from Boston University, and a B.A. in Philosophy from Renmin University of China.
+                        </p>
                         <p class="profile-bio">
-                            My academic work—spanning macroeconomics, monetary policy, and international finance—underpins my approach to designing data-driven models that enhance credit strategy and portfolio-wide decision making. I leverage advanced econometric techniques and industry data to deliver actionable insights on credit risk and capital allocation.
-                          </p>
-                          
+                            My academic work&mdash;spanning macroeconomics, monetary policy, and international finance&mdash;underpins my approach to designing data-driven models that enhance credit strategy and portfolio-wide decision making. I leverage advanced econometric techniques and industry data to deliver actionable insights on credit risk and capital allocation.
+                        </p>
+
                         <!-- Quick Links -->
                         <div class="quick-links">
-                            <a href="cv/cv.pdf" class="btn btn-primary" target="_blank">
-                                <span class="icon">📄</span> Download CV
+                            <a href="cv.html" class="btn btn-primary">
+                                <span class="icon" aria-hidden="true">📄</span> View CV
                             </a>
-                            <a href="mailto:eric.yang@university.edu" class="btn btn-secondary">
-                                <span class="icon">✉️</span> Email
+                            <a href="contact.html" class="btn btn-secondary">
+                                <span class="icon" aria-hidden="true">✉️</span> Contact
                             </a>
-                            <a href="https://scholar.google.com" class="btn btn-secondary" target="_blank">
-                                <span class="icon">🎓</span> Google Scholar
-                            </a>
-                            <a href="https://github.com/eric-yang" class="btn btn-secondary" target="_blank">
-                                <span class="icon">💻</span> GitHub
-                            </a>
+                            <!-- TODO: re-add direct links once you provide the values:
+                            <a href="mailto:YOUR_EMAIL" class="btn btn-secondary"><span class="icon" aria-hidden="true">✉️</span> Email</a>
+                            <a href="YOUR_GOOGLE_SCHOLAR_URL" class="btn btn-secondary" target="_blank" rel="noopener noreferrer"><span class="icon" aria-hidden="true">🎓</span> Google Scholar</a>
+                            <a href="YOUR_GITHUB_URL" class="btn btn-secondary" target="_blank" rel="noopener noreferrer"><span class="icon" aria-hidden="true">💻</span> GitHub</a>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -71,23 +90,24 @@
 
             <!-- Recent Research Highlights -->
             <section class="highlights-section">
-                <h3 class="section-title">Recent Research</h3>
+                <h2 class="section-title">Recent Research</h2>
                 <div class="research-grid">
                     <div class="research-card">
-                        <h4 class="research-title">Policy Effects on Human Capital Development</h4>
+                        <h3 class="research-title">Risk-taking and Monetary Policy</h3>
                         <p class="research-status">Working Paper, 2024</p>
                         <p class="research-abstract">
-                            This paper examines the long-term effects of early childhood education policies 
-                            on human capital accumulation and labor market outcomes...
+                            How accommodative monetary policy reshapes risk perception among fixed-income
+                            investors, using high-frequency identification of People's Bank of China
+                            announcements and a Bayesian structural VAR.
                         </p>
                         <a href="research.html" class="read-more">Read more →</a>
                     </div>
                     <div class="research-card">
-                        <h4 class="research-title">Labor Market Dynamics in Developing Economies</h4>
-                        <p class="research-status">Under Review, 2024</p>
+                        <h3 class="research-title">Measuring Provincial Bond Risk Premia in China</h3>
+                        <p class="research-status">Working Paper, 2024</p>
                         <p class="research-abstract">
-                            An empirical analysis of labor market transitions and wage determination 
-                            mechanisms in emerging market economies...
+                            How regional economic factors and policy differences shape bond pricing across
+                            Chinese provinces.
                         </p>
                         <a href="research.html" class="read-more">Read more →</a>
                     </div>
@@ -97,34 +117,32 @@
                 </div>
             </section>
 
-            <!-- News Section -->
-            <section class="news-section">
-                <h3 class="section-title">Recent Updates</h3>
-                <div class="news-list">
-                    <div class="news-item">
-                        <span class="news-date">January 2025</span>
-                        <span class="news-content">Presenting at the American Economic Association Annual Meeting</span>
-                    </div>
-                    <div class="news-item">
-                        <span class="news-date">December 2024</span>
-                        <span class="news-content">Paper accepted for presentation at Labor Economics Conference</span>
-                    </div>
-                    <div class="news-item">
-                        <span class="news-date">November 2024</span>
-                        <span class="news-content">Awarded Graduate Research Fellowship</span>
-                    </div>
-                </div>
-            </section>
+            <!-- TODO: add real, verifiable updates here when available (talks, new drafts, etc.).
+                 The previous "Recent Updates" entries were placeholder content and have been removed. -->
         </div>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; Eric Yang, 2025</p>
+            <p>&copy; 2026 Eric Yang</p>
         </div>
     </footer>
 
     <script src="assets/js/script.js"></script>
+
+    <!-- TODO: add "sameAs": ["GOOGLE_SCHOLAR_URL", "ORCID_URL", "REPEC_URL", "SSRN_URL", "LINKEDIN_URL"]
+         to the JSON-LD below once those URLs are known. -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Eric Yang",
+      "jobTitle": "Modeling & Analytics Researcher",
+      "worksFor": { "@type": "Organization", "name": "Moody's" },
+      "alumniOf": ["George Washington University", "Boston University", "Renmin University of China"],
+      "url": "https://andrea1618.github.io/"
+    }
+    </script>
 </body>
-</html> 
+</html>

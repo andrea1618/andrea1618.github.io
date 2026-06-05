@@ -1,80 +1,39 @@
-# 🚀 Website Setup Checklist
+# Setup Checklist — values still needed
 
-Complete these steps to customize your academic website:
+This site was cleaned up to remove all template/placeholder content. The items below are
+the **real values only you can provide**. Each is marked with a `TODO` comment in the
+code — search the repo for `TODO` to jump to each spot.
 
-## 📋 Required Updates
+## Contact (`contact.html`, and quick links in `index.html`)
+- [ ] **Email address** — replace `[ TODO: add email address ]` and the commented
+      `mailto:` snippet. Also uncomment the Email quick-link in `index.html`.
+- [ ] **Google Scholar** URL — or delete the line if you don't have one.
+- [ ] **ORCID** URL — or delete.
+- [ ] **RePEc** URL — or delete.
+- [ ] **SSRN** URL — or delete.
+- [ ] **LinkedIn** URL — or delete.
+- [ ] **GitHub** URL — or delete.
+- [ ] *(Optional)* Phone / office / mailing address — removed because the repo only had
+      placeholder values; re-add in the "Get in Touch" card if you want them public.
 
-### ✅ 1. Personal Information
-- [ ] **index.html**: Update name, title, bio, and research interests
-- [ ] **contact.html**: Update email, phone, office address, university
-- [ ] **All pages**: Replace placeholder URLs with your actual profiles
+## SEO (`index.html`)
+- [ ] Add the same profile URLs to the `sameAs` array in the JSON-LD block (commented TODO).
+- [ ] *(Optional)* Add a social share image and uncomment the `og:image` tags.
 
-### ✅ 2. Research Content  
-- [ ] **research.html**: Add your papers, publications, and working papers
-- [ ] **assets/papers/**: Upload your research PDF files
-- [ ] Update paper titles, abstracts, co-authors, and publication status
+## Files (currently empty/placeholder — these would otherwise 404)
+- [ ] **`cv/cv.pdf`** — currently a 1-byte stub. Add the real PDF, then uncomment the
+      `<object>` embed + download button in `cv.html`.
+- [ ] **Profile photo** — `assets/img/` only has a 1-byte stub. Add a real photo and
+      replace the `EY` initials placeholder in `index.html` with the commented `<img>` tag.
+- [ ] **Paper PDFs** — none exist in `assets/papers/`. Add them and uncomment the
+      `paper-links` blocks in `research.html`.
+- [ ] **`favicon.ico`** — none exists. Add one to `assets/img/` and re-enable the
+      `<link rel="icon">` tag (commented in every page's `<head>`).
 
-### ✅ 3. Teaching Information
-- [ ] **teaching.html**: Add your courses, teaching experience, and philosophy
-- [ ] Update course details, student ratings, and testimonials
-
-### ✅ 4. Files to Replace
-- [ ] **assets/img/profile-placeholder.jpg**: Your profile photo (400x400px recommended)
-- [ ] **cv/cv.pdf**: Your actual CV PDF file
-
-### ✅ 5. Links to Update
-- [ ] Email addresses (replace `eric.yang@university.edu`)
-- [ ] Google Scholar profile URL
-- [ ] ORCID ID
-- [ ] LinkedIn profile  
-- [ ] GitHub username
-- [ ] Twitter/X handle
-- [ ] ResearchGate profile
-- [ ] University/institution name and address
-
-## 🎯 Quick Reference: Files to Edit
-
-### Essential Files
-1. **index.html** - Homepage content
-2. **research.html** - Research papers and publications  
-3. **teaching.html** - Teaching experience
-4. **contact.html** - Contact information
-5. **assets/img/profile-placeholder.jpg** - Profile photo
-6. **cv/cv.pdf** - CV document
-
-### Search and Replace
-Use "Find & Replace" in your editor for these common updates:
-
-| Replace This | With Your Info |
-|-------------|----------------|
-| `Eric Yang` | Your full name |
-| `eric.yang@university.edu` | Your email |
-| `University Name` | Your institution |
-| `Ph.D. Candidate in Economics` | Your title/position |
-| `https://github.com/eric-yang` | Your GitHub URL |
-
-## 🌐 GitHub Pages Setup
-
-1. **Create repository**: `yourusername.github.io`
-2. **Upload all files** to the repository
-3. **Enable GitHub Pages** in repository Settings > Pages
-4. **Wait 5-10 minutes** for deployment
-5. **Visit**: `https://yourusername.github.io`
-
-## ✨ Optional Enhancements
-
-- [ ] Add Google Analytics tracking code
-- [ ] Set up custom domain name
-- [ ] Add more research papers
-- [ ] Update color scheme in CSS
-- [ ] Add blog or news section
-
-## 🆘 Need Help?
-
-- Check the main **README.md** for detailed instructions
-- Look for TODO comments in the HTML files
-- Test your website locally by opening `index.html` in a browser
-
----
-
-**Tip**: Complete the "Required Updates" section first, then deploy to GitHub Pages. You can always make changes later! 
+## To verify yourself (could not be verified from the repo)
+- [ ] **Co-author name** in "Boom-Bust Capital Flow Cycles" reads "Graciela K." — confirm
+      and complete the full name (`research.html`).
+- [ ] Paper titles, abstracts, dates, and statuses on `research.html` are accurate.
+- [ ] **Teaching page was removed.** It contained only fabricated content (invented
+      instructor names, made-up ratings, fake testimonials). Re-add a `teaching.html`
+      with real content when you have it, and restore its nav link in all four pages.
