@@ -22,9 +22,9 @@ Search the repo for `TODO` to jump to each spot.
       link near the bottom of each page in `research/`.
 
 ## Writing
-- [ ] Replace the placeholder entry in the Writing section of `index.html` with a real
-      post (copy `writing/example-post.html` → `writing/your-title.html`, remove the
-      `noindex` line), or remove the Writing section until you have a post.
+- [x] Replace the placeholder entry in the Writing section of `index.html` with a real
+      post — done 2026-06-05: `writing/revenue-in-profit-out.html` (charts in
+      `assets/charts/`). `writing/example-post.html` stays as the template.
 
 ## To verify yourself
 - [ ] Paper titles, abstracts, dates, and statuses in `research/` are accurate.
