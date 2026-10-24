@@ -8,7 +8,7 @@ footer); each paper or post lives on its own page.
 
 ## Current status
 
-- Last commit 2026-06-05 (first writing post, "Revenue In, Profit Out"); the editorial redesign
+- The first writing post, "Revenue In, Profit Out", was added on 2026-06-05; the editorial redesign
   landed 2026-06-04. On 2026-10-06 the decision was to keep this public version (recorded in
   `dev-standards/docs/PROJECT-MAP.md`).
 - Still open: the contact links in the `index.html` footer are a `TODO` placeholder;
@@ -56,5 +56,6 @@ publishes automatically via GitHub Pages (Settings → Pages → Deploy from a b
 
 ## More
 
+- `AGENTS.md`: project rules, public publishing behavior, and editing checks.
 - `SETUP-CHECKLIST.md`: values still needed (contact links, SEO, CV and paper PDFs) and notes on the redesign; search the repo for `TODO` to find each spot.
 - `assets/papers/README.md`: PDF naming and linking.
