@@ -1,6 +1,6 @@
 # 个人网站项目规约
 
-先读 [共同规则](../dev-standards/AGENTS.md)。项目进度看 [README.md](README.md)，
+先读 [共同规则](../../dev-standards/AGENTS.md)。项目进度看 [README.md](README.md)，
 尚未补齐的内容看 [SETUP-CHECKLIST.md](SETUP-CHECKLIST.md)。
 
 ## 环境与结构

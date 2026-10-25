@@ -8,6 +8,7 @@ footer); each paper or post lives on its own page.
 
 ## Current status
 
+- Local checkout: `ideas/personal-website/` since 2026-10-24. Shared workspace rules are in `../../dev-standards/AGENTS.md`.
 - The first writing post, "Revenue In, Profit Out", was added on 2026-06-05; the editorial redesign
   landed 2026-06-04. On 2026-10-06 the decision was to keep this public version (recorded in
   `dev-standards/docs/PROJECT-MAP.md`).
